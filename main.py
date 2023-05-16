@@ -9,6 +9,12 @@ def main():
 
     if operator == "+":
         result = add(data_1, data_2)
+    elif operator == "*":
+        result = add(data_1, data_2)
+    elif operator == "/":
+        result = add(data_1, data_2)
+    else:
+        result = "Anda memasukan operator yang tidak tepat!"
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
